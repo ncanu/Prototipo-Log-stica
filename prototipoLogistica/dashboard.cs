@@ -35,5 +35,10 @@ namespace prototipoLogistica
             inv.Show();
             this.Hide();
         }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(1);
+        }
     }
 }
