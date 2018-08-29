@@ -63,7 +63,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(452, 113);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Logistica";
+            this.label2.Text = "Logística";
             // 
             // pictureBox1
             // 
