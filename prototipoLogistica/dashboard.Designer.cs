@@ -63,7 +63,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(452, 113);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Logistica";
+            this.label2.Text = "Logística";
             // 
             // pictureBox1
             // 
@@ -100,9 +100,9 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Arial Black", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(167, 734);
+            this.button1.Location = new System.Drawing.Point(199, 734);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(314, 139);
+            this.button1.Size = new System.Drawing.Size(245, 139);
             this.button1.TabIndex = 5;
             this.button1.Text = "Inventario";
             this.button1.UseVisualStyleBackColor = false;
@@ -115,9 +115,9 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Arial Black", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(636, 734);
+            this.button2.Location = new System.Drawing.Point(676, 734);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(314, 139);
+            this.button2.Size = new System.Drawing.Size(245, 139);
             this.button2.TabIndex = 6;
             this.button2.Text = "Mantenimiento";
             this.button2.UseVisualStyleBackColor = false;
@@ -129,9 +129,9 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Arial Black", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(1083, 734);
+            this.button3.Location = new System.Drawing.Point(1119, 734);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(314, 139);
+            this.button3.Size = new System.Drawing.Size(245, 139);
             this.button3.TabIndex = 7;
             this.button3.Text = "Transporte";
             this.button3.UseVisualStyleBackColor = false;
@@ -145,6 +145,7 @@
             this.pictureBox4.Size = new System.Drawing.Size(66, 66);
             this.pictureBox4.TabIndex = 8;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // dashboard
             // 

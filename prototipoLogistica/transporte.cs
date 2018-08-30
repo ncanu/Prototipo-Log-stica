@@ -21,5 +21,17 @@ namespace prototipoLogistica
         {
             dateTimePicker1.Font = new Font("Arial", 16, FontStyle.Regular);
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            dashboard dash = new dashboard();
+            dash.Show();
+            this.Dispose();
+        }
     }
 }
