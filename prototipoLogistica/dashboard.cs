@@ -40,5 +40,12 @@ namespace prototipoLogistica
         {
             Environment.Exit(1);
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Mantenimiento mantenimiento = new Mantenimiento();
+            mantenimiento.Show();
+            this.Hide();
+        }
     }
 }
