@@ -10,15 +10,11 @@ using System.Windows.Forms;
 
 namespace prototipoLogistica
 {
-    public partial class docInventario : Form
+    public partial class listaDocInvetario : Form
     {
-        public docInventario()
+        public listaDocInvetario()
         {
             InitializeComponent();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
         }
     }
 }

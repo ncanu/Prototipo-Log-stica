@@ -38,8 +38,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -88,9 +86,9 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(33, 26);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(340, 31);
+            this.label1.Size = new System.Drawing.Size(353, 31);
             this.label1.TabIndex = 0;
-            this.label1.Text = "DETALLES DEL PRODUCTO";
+            this.label1.Text = "DETALLES DEL INVENTARIO";
             // 
             // label2
             // 
@@ -157,32 +155,11 @@
             this.comboBox1.Size = new System.Drawing.Size(390, 46);
             this.comboBox1.TabIndex = 7;
             // 
-            // textBox3
-            // 
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Font = new System.Drawing.Font("Berlin Sans FB", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(994, 262);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(194, 49);
-            this.textBox3.TabIndex = 9;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Berlin Sans FB", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(80)))), ((int)(((byte)(92)))));
-            this.label5.Location = new System.Drawing.Point(750, 274);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(206, 26);
-            this.label5.TabIndex = 8;
-            this.label5.Text = "Precio del producto";
-            // 
             // textBox4
             // 
             this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox4.Font = new System.Drawing.Font("Berlin Sans FB", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(217, 392);
+            this.textBox4.Location = new System.Drawing.Point(217, 383);
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(194, 49);
@@ -193,7 +170,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Berlin Sans FB", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(80)))), ((int)(((byte)(92)))));
-            this.label6.Location = new System.Drawing.Point(76, 406);
+            this.label6.Location = new System.Drawing.Point(76, 397);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(66, 26);
             this.label6.TabIndex = 10;
@@ -204,7 +181,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Berlin Sans FB", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(80)))), ((int)(((byte)(92)))));
-            this.label7.Location = new System.Drawing.Point(750, 406);
+            this.label7.Location = new System.Drawing.Point(750, 278);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(198, 26);
             this.label7.TabIndex = 12;
@@ -217,7 +194,7 @@
             this.comboBox2.Font = new System.Drawing.Font("Berlin Sans FB", 16.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.ItemHeight = 40;
-            this.comboBox2.Location = new System.Drawing.Point(994, 395);
+            this.comboBox2.Location = new System.Drawing.Point(994, 267);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(390, 46);
             this.comboBox2.TabIndex = 13;
@@ -227,7 +204,7 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Berlin Sans FB", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(80)))), ((int)(((byte)(92)))));
-            this.label8.Location = new System.Drawing.Point(76, 527);
+            this.label8.Location = new System.Drawing.Point(758, 387);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(117, 26);
             this.label8.TabIndex = 14;
@@ -240,7 +217,7 @@
             this.comboBox3.Font = new System.Drawing.Font("Berlin Sans FB", 16.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox3.FormattingEnabled = true;
             this.comboBox3.ItemHeight = 40;
-            this.comboBox3.Location = new System.Drawing.Point(217, 520);
+            this.comboBox3.Location = new System.Drawing.Point(994, 377);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(390, 46);
             this.comboBox3.TabIndex = 15;
@@ -258,7 +235,7 @@
             this.Column5,
             this.Column6,
             this.Column7});
-            this.dataGridView1.Location = new System.Drawing.Point(81, 629);
+            this.dataGridView1.Location = new System.Drawing.Point(76, 553);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(1453, 313);
@@ -276,7 +253,7 @@
             // 
             // Column3
             // 
-            this.Column3.HeaderText = "Categorias";
+            this.Column3.HeaderText = "Categoria";
             this.Column3.Name = "Column3";
             // 
             // Column4
@@ -312,8 +289,6 @@
             this.Controls.Add(this.label7);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.label5);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.textBox2);
@@ -343,8 +318,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
