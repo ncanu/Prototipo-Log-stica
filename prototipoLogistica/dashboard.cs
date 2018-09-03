@@ -31,9 +31,15 @@ namespace prototipoLogistica
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form1 inv = new Form1();
+            /*Form1 inv = new Form1();
             inv.Show();
+            this.Hide();*/
+
+            docInventario dinv = new docInventario();
+            dinv.Show();
             this.Hide();
+
+
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
