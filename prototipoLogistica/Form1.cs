@@ -19,8 +19,8 @@ namespace prototipoLogistica
 
         private void button6_Click(object sender, EventArgs e)
         {
-            dashboard dash = new dashboard();
-            dash.Show();
+            listaDocInvetario lsInv = new listaDocInvetario();
+            lsInv.Show();
             this.Dispose();
         }
     }
